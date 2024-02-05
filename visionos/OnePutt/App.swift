@@ -3,7 +3,7 @@ import React
 import React_RCTSwiftExtensions
 
 @main
-struct RNTesterApp: App {
+struct OnePuttApp: App {
   @UIApplicationDelegateAdaptor var delegate: AppDelegate
   @State private var immersionLevel: ImmersionStyle = .full
   
