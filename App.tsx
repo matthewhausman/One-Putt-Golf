@@ -8,7 +8,7 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {ScrollView, StyleSheet, Text, useColorScheme, View} from 'react-native';
-
+import {OpenXRSession} from './components/XRControl';
 import {
   Colors,
   DebugInstructions,
@@ -51,6 +51,7 @@ function App(): React.JSX.Element {
   return (
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <Header />
+      <OpenXRSession />
       <View>
         <Section title="Step One">
           Edit <Text style={styles.highlight}>App.tsx</Text> to change this
